@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SDK.Runtime
 {
-    public static partial class SDK
+    public partial class SDK
     {
         public class Bugly
         {
