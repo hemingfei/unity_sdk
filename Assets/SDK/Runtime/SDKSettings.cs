@@ -14,9 +14,13 @@ namespace SDK.Runtime
     [CreateAssetMenu(fileName = "SDKSettings", menuName = "Framework/Create SDK Settings")]
     public class SDKSettings : ScriptableObject
     {
-        [Header("Bugly设置")] public string buglyAppId;
+        [Header("Bugly设置")] 
+        public string buglyAppIdAndroid;
+        public string buglyAppIdIOS;
         
-        [Header("TalkingData设置")] public string talkingDataAppId;
+        [Header("TalkingData设置")] 
+        public string talkingDataAppIdAndroid;
+        public string talkingDataAppIdIOS;
     }
 }
 

@@ -18,6 +18,34 @@ namespace SDK.Runtime
                 return _settings;
             }
         }
+        
+        public static string TalkingDatasAppId
+        {
+            get
+            {
+#if UNITY_ANDROID
+                return Settings.talkingDataAppIdAndroid;
+#elif UNITY_IOS
+                return Settings.talkingDataAppIdIOS;
+#else
+                return "";
+#endif
+            }
+        }
+        
+        public static string BuglyAppId
+        {
+            get
+            {
+#if UNITY_ANDROID
+                return Settings.buglyAppIdAndroid;
+#elif UNITY_IOS
+                return Settings.buglyAppIdIOS;
+#else
+                return "";
+#endif
+            }
+        }
 
         /// <summary>
         /// 加载配置文件
