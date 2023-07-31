@@ -2,7 +2,8 @@
     "name": "SDK.Runtime",
     "rootNamespace": "",
     "references": [
-        "GUID:7fcb0d1bd6971c744a1f524811b48e8b"
+        "GUID:7fcb0d1bd6971c744a1f524811b48e8b",
+        "GUID:5c99d2e5030820b4b801ea99bff18a6a"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

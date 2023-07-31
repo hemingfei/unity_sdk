@@ -26,7 +26,7 @@ namespace SDK.Runtime
             /// <param name="logLevel">日志等级</param>
             public static void Init(bool isDebugMode = false, LogLevel logLevel = LogLevel.Error)
             {
-                string appID = SDKSettingsData.Settings.BuglyAppId;
+                string appID = SDKSettingsData.Settings.buglyAppId;
                 // Enable the debug log print
                 BuglyAgent.ConfigDebugMode(isDebugMode);
                 // Config default channel, version, user 
@@ -64,6 +64,15 @@ namespace SDK.Runtime
             }
 
             /// <summary>
+            /// 设置用户ID
+            /// </summary>
+            /// <param name="uid">用户ID</param>
+            public static void Login(string uid)
+            {
+                BuglyAgent.SetUserId(uid);
+            }
+            
+            /// <summary>
             /// 设置额外的信息
             /// </summary>
             /// <param name="deviceId">设备id</param>
@@ -100,14 +109,7 @@ namespace SDK.Runtime
                 });
             }
 
-            /// <summary>
-            /// 设置用户ID
-            /// </summary>
-            /// <param name="uid">用户ID</param>
-            public static void SetUserId(string uid)
-            {
-                BuglyAgent.SetUserId(uid);
-            }
+
         }
     }
 }
