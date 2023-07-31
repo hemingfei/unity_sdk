@@ -1,0 +1,16 @@
+{
+    "name": "SDK.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7fcb0d1bd6971c744a1f524811b48e8b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,18 @@
+{
+    "name": "com.hegametech.sdk",
+    "displayName": "SDK",
+    "version": "1.0.0",
+    "unity": "2021.3",
+    "description": "",
+    "author": {
+        "name": "hemingfei",
+        "url": "https://github.com/hemingfei/unity_sdk"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hemingfei/unity_sdk.git"
+    },
+    "relatedPackages": {},
+    "dependencies": {
+    }
+}

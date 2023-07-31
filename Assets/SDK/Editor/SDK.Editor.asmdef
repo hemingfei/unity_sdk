@@ -1,0 +1,18 @@
+{
+    "name": "SDK.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5b05abfddac927b43abf11259a936b83"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
