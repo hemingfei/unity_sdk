@@ -1,4 +1,4 @@
-﻿//#if UNITY_IOS
+﻿#if UNITY_IOS
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -123,4 +123,4 @@ public static class XCodePostProcessBuild
 		}
 	}
 }
-//#endif
+#endif
